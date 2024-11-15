@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/442fa27fbc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Blue Music</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="home" href="#"><h1>Blue Music</h1></a>
+
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-regular fa-bell"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a>
+          </li>
+          <li class="profile-img-container">
+            <img
+              src="/assets/photos/profile-img.jpg"
+              alt="profile image"
+              class="profile-img"
+            />
+            <a href="#">Dreamer3742</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="home-page">
+      <div class="menu-wrapper">
+        <ul class="menu library-menu">
+          <p>Library</p>
+          <li>
+            <a href="#"><i class="fa-solid fa-list"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-headphones"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-music"></i></a>
+          </li>
+        </ul>
+        <ul class="menu discovery-menu">
+          <p>Discovery</p>
+          <li>
+            <a href="#"><i class="fa-solid fa-shop"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-box"></i></a>
+          </li>
+        </ul>
+      </div>
+      
+    <div class="list-container">
+      <div class="slider-wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="carousel">
+          <img src="/assets/photos/anson-seabra-SoundCloud.jpg" alt="img" draggable="false">
+          <img src="/assets/photos/before_you.jpg" alt="img" draggable="false">
+          <img src="/assets/photos/blinding_lights.jpg" alt="img" draggable="false">
+          <img src="/assets/photos/heal_tomodell.jpg" alt="img" draggable="false">
+          <img src="/assets/photos/lewis_capaldi_song.jpg" alt="img" draggable="false">
+          <img src="/assets/photos/six feet apart.jpg" alt="img" draggable="false">
+          <img src="/assets/photos/someone_to_you_matt_hansen.jpg" alt="img" draggable="false">
+          <img src="/assets/photos/Niall_Horan_-_The_Show_Live_on_Tour.png" alt="img" draggable="false">
+          <img src="/assets/photos/one_Step_closer_intersection.jpeg" alt="img" draggable="false">
+        </div>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+
+      <div class="player-container">
+        <div class="player-img"><img src="/assets/photos/one_Step_closer_intersection.jpeg" alt=""></div>
+        <div class="player-wrapper">
+          <div class="music-player">
+            <h2>Title</h2>
+            <p>Artist</p>
+            <audio id="song">
+              <source src="" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+          <div class="controls">
+            <button class="backward">
+              <i class="fa-solid fa-backward"></i>
+            </button>
+            <button class="play-pause-btn">
+              <i class="fa-solid fa-play" id="controlIcon"></i>
+            </button>
+            <button class="forward">
+              <i class="fa-solid fa-forward"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+    <div class="recommended-list">
+      <h3>Featured Artists</h3>
+      <div class="artist-container">
+    
+        <div class="artist-wrapper">
+          <a href="#"><img src="/assets/photos/kim woojin.jpeg" alt=""></a>
+          <p>Kim Woojin</p>
+        </div>
+        <div class="artist-wrapper">
+          <a href="#"><img src="/assets/photos/IMG_2953.jpeg" alt=""></a>
+          <p>Niall Horan</p>
+        </div>
+        <div class="artist-wrapper">
+          <a href="#"><img src="/assets/photos/alec_benjamin.jpg" alt=""></a>
+          <p>Alec Benjamin</p>
+        </div>
+        <div class="artist-wrapper">
+          <a href="#"><img src="/assets/photos/matt_hansesn.jpg" alt=""></a>
+          <p>Matt Hansen</p>
+        </div>
+        <div class="artist-wrapper">
+          <a href="#"><img src="/assets/photos/aurora.jpg" alt=""></a>
+          <p>Aurora</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+      <div class="recommended-song-container">
+        <div class="recommended-song">
+          <h3>Recommended Songs</h3>
+          <ul class="recommended-song-wrapper" id="recommendedSong">
+            <!-- <li class="song-details" id="songDetails">
+                <img id="songCover" src="/assets/photos/matt hansesn.jpg" alt="cover" />
+                <div class="song-content">
+                  <h4 id="songTitle" class="song-title">Someone to you</h4>
+                  <p id="artist" class="artist">Matt Hansen</p>
+                </div>
+              </li> -->
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/player.js"></script>
+    <script type="module" src="/src/slider.js"></script>
+    <script type="module" src="./src/fetch-data.js"></script>
+  </body>
+</html>
