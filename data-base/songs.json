@@ -1,0 +1,65 @@
+{"songs": [
+    {
+        "id": 1,
+        "artist":"Niall Horan",
+        "name": "Scince",
+        "image": "/assets/photos/Niall_Horan_-_The_Show_Live_on_Tour.png"
+    },
+    {
+        
+        "id": 2,
+        "artist":"Lewis Capaldi",
+        "name": "Burning",
+        "image": "assets/photos/lewis_capaldi_song.jpg"
+    },
+    {
+        "id":3,
+        "artist":"Kim Woojin",
+        "name":"Hold",
+        "image":"/assets/photos/download.jpeg"
+    },
+    {
+        "id":4,
+        "artist":"Matt Hansen",
+        "name":"Someone To You",
+        "image":"assets/photos/someone_to_you_matt_hansen.jpg"
+    },
+
+    {
+        "id":5,
+        "artist":"Anson Seabra",
+        "name":"Peter Pan Was Right",
+        "image":"assets/photos/peter_pan_was_right.jpeg"
+    },
+    {
+        "id":6,
+        "artist":"Loi",
+        "name":"Blinding Lights",
+        "image":"assets/photos/blinding_lights.jpg"
+    },
+    {
+        "id":7,
+        "artist":"Tom Odell",
+        "name":"Heal",
+        "image":"assets/photos/heal_tomodell.jpg"
+    },
+    {
+        "id":8,
+        "artist":"Dean Lewis",
+        "name":"Half A Man",
+        "image":"assets/photos/artworks-z123zK5kNPbn-0-t500x500.jpg"
+    },
+    {
+        "id":9,
+        "artist":"Aurora",
+        "name":"To Be Alright",
+        "image":"assets/photos/To-Be-Alright-AURORA.jpg"
+    },
+    {
+        "id":10,
+        "artist":"Adele",
+        "name":"Easy On Me",
+        "image":"assets/photos/Adele-Easy-On-Me.png"
+    }
+
+]}
